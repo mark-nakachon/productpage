@@ -1,0 +1,58 @@
+@media (min-width: 1024px)
+{
+    .display-date{
+        margin: 5px 5px 10px 10px;
+
+        p{
+            text-align: left;
+            margin: 0px auto;
+        }
+    }
+
+    .startDate,.end-date-container{
+        margin: 5px;
+    }
+
+    .input-date{
+     float: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+   
+}
+
+@media (min-width:512px) and (max-width: 767px)
+{
+    
+}
+
+  @media (min-width: 240px) and (max-width: 512px) {	
+
+    .display-date{
+        margin: 5px 5px 10px 10px;
+
+        p{
+            text-align: center;
+            margin: 0px auto;
+        }
+    }
+        input{
+            margin: 0px auto;
+        }
+
+        .ant-btn{
+            box-align: end;
+        }
+    
+    .startDate,.end-date-container{
+        margin: 5px;
+    }
+
+   
+  	}
+  @media (max-width: 240px) {	
+
+
+  	}
